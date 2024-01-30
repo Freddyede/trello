@@ -23,7 +23,7 @@ class TasksServices
     {
         $this->manager->remove($this->manager->getRepository(Tasks::class)->find($id));
         $this->manager->flush();
-        // test
+        // test 2
         return $redirect;
     }
 }
